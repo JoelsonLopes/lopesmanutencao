@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Outfit, Inter } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -18,7 +18,10 @@ export const metadata: Metadata = {
   title: "Lopes Manutenção — Câmaras Frigoríficas no Rio Grande do Sul",
   description: "Especialistas em troca de gaxetas, molas e vedações de câmaras frigoríficas e balcões comerciais. Atendimento técnico especializado em todo o Rio Grande do Sul.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
   },
   openGraph: {
     title: "Lopes Manutenção — Câmaras Frigoríficas no Rio Grande do Sul",
