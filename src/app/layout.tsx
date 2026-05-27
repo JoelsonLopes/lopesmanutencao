@@ -18,10 +18,7 @@ export const metadata: Metadata = {
   title: "Lopes Manutenção — Câmaras Frigoríficas no Rio Grande do Sul",
   description: "Especialistas em troca de gaxetas, molas e vedações de câmaras frigoríficas e balcões comerciais. Atendimento técnico especializado em todo o Rio Grande do Sul.",
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
+    icon: "/favicon.svg",
   },
   openGraph: {
     title: "Lopes Manutenção — Câmaras Frigoríficas no Rio Grande do Sul",
